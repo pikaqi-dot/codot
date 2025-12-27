@@ -1,0 +1,66 @@
+# Binaries for the GDExtension
+/bin/
+
+# Godot-specific ignores
+.godot/
+.gdignore
+*.gdns
+*.import
+*.tscn.converted
+*.tscn.temp
+
+# Compilation artifacts
+*.o
+*.obj
+*.lo
+*.la
+*.so
+*.dll
+*.dylib
+*.a
+*.lib
+*.mod
+*.exp
+*.ilk
+*.pdb
+*.gch
+*.pch
+*.sbr
+*.res
+*.exe
+*.out
+*.app
+*.ipa
+*.apk
+*.xcode
+*.xcodeproj
+*.xcworkspace
+*.dsym
+*.mem
+
+# Editor-specific ignores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Build system specific
+.sconsign.dblite
+SConstruct.orig
+build/
+
+# Other common ignores
+*~
+*.bak
+*.swp
+*.user
+*.suo
+*.sln.ide/
+*.vshost.exe
+*.vshost.exe.config
+*.tmp
+*.log
+*.diff
+*.patch
+.DS_Store
+Thumbs.db
